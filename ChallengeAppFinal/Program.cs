@@ -8,7 +8,3 @@ var statistics = employee.GetStatistics();
 Console.WriteLine($"Average: {statistics.Average:N2}"); // N2 - dwa miejsca po przecinku. Interpolacja stringów.
 Console.WriteLine($"Min: {statistics.Min}");
 Console.WriteLine($"Max: {statistics.Max}");
-
-
-
-int[] grades = new int[5];
